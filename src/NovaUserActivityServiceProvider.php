@@ -14,7 +14,7 @@ class NovaUserActivityServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__.'/Nova/Metrics/ActiveUsersPerDay.php' => app_path('Nova\Metrics\ActiveUsersPerDay.php'),
-        ], 'laravel-user-activity-config');
+            __DIR__.'/Nova/Metrics/ActiveUsersPerDay.php.stub' => app_path('Nova\Metrics\ActiveUsersPerDay.php'),
+        ], 'laravel-user-activity-metrics');
     }
 }

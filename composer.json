@@ -1,0 +1,28 @@
+{
+    "name": "wamesk/laravel-nova-user-activity",
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.1|^8.2",
+        "laravel/framework": "^9.0|^10.0",
+        "laravel/nova": "^4.0",
+        "wamesk/laravel-user-activity": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wame\\LaravelNovaUserActivity\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wame\\LaravelNovaUserActivity\\NovaUserActivityServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "adrianzofcin",
+            "email": "adrianzofcin@gmail.com"
+        }
+    ]
+}
